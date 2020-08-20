@@ -51,8 +51,8 @@ public class PlaystationModelControl : MonoBehaviour
             TriangleMat.DisableKeyword("_EMISSION");
             TriangleLight.intensity = 0;
         }
-        if(Input.GetButtonDown("Triangle"))
-            TriangleParticles.Play();
+        // if(Input.GetButtonDown("Triangle"))
+        //     TriangleParticles.Play();
 
         //Circle inputs management
         if(Input.GetButton("Circle")){
@@ -63,8 +63,8 @@ public class PlaystationModelControl : MonoBehaviour
             CircleMat.DisableKeyword("_EMISSION");
             CircleLight.intensity = 0;
         }
-        if(Input.GetButtonDown("Circle"))
-            CircleParticles.Play();
+        // if(Input.GetButtonDown("Circle"))
+        //     CircleParticles.Play();
         
         //Square inputs management
         if(Input.GetButton("Square")){
@@ -75,8 +75,8 @@ public class PlaystationModelControl : MonoBehaviour
             SquareMat.DisableKeyword("_EMISSION");
             SquareLight.intensity = 0;
         }
-        if(Input.GetButtonDown("Square"))
-            SquareParticles.Play();
+        // if(Input.GetButtonDown("Square"))
+        //     SquareParticles.Play();
         
         //Cross inputs management
         if(Input.GetButton("Cross")){
@@ -87,7 +87,7 @@ public class PlaystationModelControl : MonoBehaviour
             CrossMat.DisableKeyword("_EMISSION");
             CrossLight.intensity = 0;
         }
-        if(Input.GetButtonDown("Cross"))
-            CrossParticles.Play();
+        // if(Input.GetButtonDown("Cross"))
+        //     CrossParticles.Play();
     }
 }
